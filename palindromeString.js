@@ -1,12 +1,12 @@
 let str1 = "ababa";
-let i=str.length-1;
+let i=str1.length-1;
 let bag = "";
 while(i>=0){
 	bag+=(str1[i]);
 	--i;
 }
 if(bag === str1){
-	console.log("No");
+	console.log("Yes");
 }else{
- 	console.log("Yes");
+ 	console.log("No");
  }

@@ -1,14 +1,15 @@
 let num = 13;
-let i = 1;
-let co = 0;
-while(1<=num){
+let count = 0;
+
+let i=1
+while(i<=num){
 	if(num%i==0){
-		co = co+1;
+		count++;
 	}
 	++i;
 }
-if(co == 2){
-	console.log("No");
+if(count == 2){
+	console.log("Yes");
 }else{
- 	console.log("Yes");
+ 	console.log("No");
  }
